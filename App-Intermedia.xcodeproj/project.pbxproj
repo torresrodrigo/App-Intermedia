@@ -8,9 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		3682F70F815FE54A616DC91F /* Pods_App_Intermedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DFCC981D5D25C545C58B133 /* Pods_App_Intermedia.framework */; };
+		88085AAF264C33350025DAA8 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88085AAD264C33350025DAA8 /* LoginVC.swift */; };
+		88085AB0264C33360025DAA8 /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88085AAE264C33350025DAA8 /* LoginVC.xib */; };
+		88964E5A264CDE960017D04F /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88964E59264CDE960017D04F /* UITextField+Extensions.swift */; };
 		88A6D82A264C1B4D00A0217B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A6D829264C1B4D00A0217B /* AppDelegate.swift */; };
 		88A6D82C264C1B4D00A0217B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A6D82B264C1B4D00A0217B /* SceneDelegate.swift */; };
-		88A6D82E264C1B4D00A0217B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A6D82D264C1B4D00A0217B /* ViewController.swift */; };
 		88A6D831264C1B4D00A0217B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88A6D82F264C1B4D00A0217B /* Main.storyboard */; };
 		88A6D833264C1B4E00A0217B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88A6D832264C1B4E00A0217B /* Assets.xcassets */; };
 		88A6D836264C1B4E00A0217B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88A6D834264C1B4E00A0217B /* LaunchScreen.storyboard */; };
@@ -21,10 +23,12 @@
 		5D4A4F2FC4C2C26A3113A534 /* Pods-App-Intermedia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Intermedia.debug.xcconfig"; path = "Target Support Files/Pods-App-Intermedia/Pods-App-Intermedia.debug.xcconfig"; sourceTree = "<group>"; };
 		5DFCC981D5D25C545C58B133 /* Pods_App_Intermedia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_App_Intermedia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F17DC74AD87D1EE001DC885 /* Pods-App-Intermedia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Intermedia.release.xcconfig"; path = "Target Support Files/Pods-App-Intermedia/Pods-App-Intermedia.release.xcconfig"; sourceTree = "<group>"; };
+		88085AAD264C33350025DAA8 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		88085AAE264C33350025DAA8 /* LoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
+		88964E59264CDE960017D04F /* UITextField+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extensions.swift"; sourceTree = "<group>"; };
 		88A6D826264C1B4D00A0217B /* App-Intermedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App-Intermedia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88A6D829264C1B4D00A0217B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88A6D82B264C1B4D00A0217B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		88A6D82D264C1B4D00A0217B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		88A6D830264C1B4D00A0217B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		88A6D832264C1B4E00A0217B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88A6D835264C1B4E00A0217B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,6 +57,22 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		88085ABA264C35590025DAA8 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				88085AAE264C33350025DAA8 /* LoginVC.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		88964E58264CDE600017D04F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				88964E59264CDE960017D04F /* UITextField+Extensions.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		88A6D81D264C1B4D00A0217B = {
 			isa = PBXGroup;
 			children = (
@@ -74,10 +94,13 @@
 		88A6D828264C1B4D00A0217B /* App-Intermedia */ = {
 			isa = PBXGroup;
 			children = (
+				88964E58264CDE600017D04F /* Extension */,
 				88A6D8A3264C25F000A0217B /* Model */,
 				88A6D8A4264C25F600A0217B /* View  */,
 				88A6D8A5264C260700A0217B /* Controller */,
-				88A6D8A6264C260E00A0217B /* Supporting Files */,
+				88A6D8A6264C260E00A0217B /* Resources */,
+				88A6D82B264C1B4D00A0217B /* SceneDelegate.swift */,
+				88A6D829264C1B4D00A0217B /* AppDelegate.swift */,
 			);
 			path = "App-Intermedia";
 			sourceTree = "<group>";
@@ -92,6 +115,7 @@
 		88A6D8A4264C25F600A0217B /* View  */ = {
 			isa = PBXGroup;
 			children = (
+				88085ABA264C35590025DAA8 /* Login */,
 				88A6D8A7264C265400A0217B /* Storyboard */,
 			);
 			path = "View ";
@@ -100,21 +124,19 @@
 		88A6D8A5264C260700A0217B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				88A6D82D264C1B4D00A0217B /* ViewController.swift */,
+				88085AAD264C33350025DAA8 /* LoginVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		88A6D8A6264C260E00A0217B /* Supporting Files */ = {
+		88A6D8A6264C260E00A0217B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				88A6D829264C1B4D00A0217B /* AppDelegate.swift */,
-				88A6D82B264C1B4D00A0217B /* SceneDelegate.swift */,
 				88A6D837264C1B4E00A0217B /* Info.plist */,
 				88A6D842264C1FDD00A0217B /* GoogleService-Info.plist */,
 				88A6D832264C1B4E00A0217B /* Assets.xcassets */,
 			);
-			path = "Supporting Files";
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		88A6D8A7264C265400A0217B /* Storyboard */ = {
@@ -193,6 +215,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88085AB0264C33360025DAA8 /* LoginVC.xib in Resources */,
 				88A6D836264C1B4E00A0217B /* LaunchScreen.storyboard in Resources */,
 				88A6D843264C1FDD00A0217B /* GoogleService-Info.plist in Resources */,
 				88A6D833264C1B4E00A0217B /* Assets.xcassets in Resources */,
@@ -249,9 +272,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88A6D82E264C1B4D00A0217B /* ViewController.swift in Sources */,
 				88A6D82A264C1B4D00A0217B /* AppDelegate.swift in Sources */,
+				88964E5A264CDE960017D04F /* UITextField+Extensions.swift in Sources */,
 				88A6D82C264C1B4D00A0217B /* SceneDelegate.swift in Sources */,
+				88085AAF264C33350025DAA8 /* LoginVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,7 +425,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MMDTV8J5UC;
-				INFOPLIST_FILE = "App-Intermedia/Info.plist";
+				"INFOPLIST_FILE[sdk=*]" = "App-Intermedia/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -421,7 +445,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MMDTV8J5UC;
-				INFOPLIST_FILE = "App-Intermedia/Info.plist";
+				"INFOPLIST_FILE[sdk=*]" = "App-Intermedia/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
