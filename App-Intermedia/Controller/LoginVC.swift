@@ -13,8 +13,6 @@ class LoginVC: UIViewController {
     @IBOutlet weak var passwordTxtFld: UITextField!
     @IBOutlet weak var btnLogin: UIButton!
     
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -23,7 +21,9 @@ class LoginVC: UIViewController {
     }
     
     @IBAction func btnLoginPressed(_ sender: Any) {
-        
+        let tab = MainTabBar()
+        tab.modalPresentationStyle = .fullScreen
+        present(tab, animated: true)
     }
     
     func setupUI() {

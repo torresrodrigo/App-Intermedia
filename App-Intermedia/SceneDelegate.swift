@@ -20,10 +20,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window = UIWindow(windowScene: windowScene)
         window?.windowScene = windowScene
         
-        let login = LoginVC()
-        window?.rootViewController = login
+        //let login = LoginVC()
+        let tabBar = MainTabBar()
+        window?.rootViewController = tabBar
         window?.makeKeyAndVisible()
-        
         
     }
 
