@@ -15,14 +15,29 @@ class CustomTableViewCell: UITableViewCell {
     @IBOutlet var titleCell: UILabel!
     @IBOutlet var descriptionCell: UILabel!
     
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
+    static var identifier = "CustomTableViewCell"
+    static func nib() -> UINib {
+        return UINib(nibName: "CustomTableViewCell", bundle: nil)
     }
     
-    public func configure(with title: String, description: String, imageName: String){
-        titleCell.text = title
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        setupUI()
+    }
+    
+    public func configureCell(title: String, description: String, imageName: String){
+        titleCell.text? = title.uppercased()
         descriptionCell.text = description
         imageCell.image = UIImage(systemName: imageName)
+        
     }
+    
+    private func setupUI() {
+        containerView.layer.cornerRadius = 5
+        containerView.backgroundColor = .white
+        contentView.backgroundColor = #colorLiteral(red: 0.8895466059, green: 0.893653141, blue: 0.9059727462, alpha: 1)
+        selectionStyle = .none
+        
+    }
+    
 }
