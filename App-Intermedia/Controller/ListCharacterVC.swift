@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ListCharacterVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class ListCharacterVC: UIViewController  {
 
     @IBOutlet weak var characterTableView: UITableView!
     let characters = [Characters]()
@@ -15,28 +15,38 @@ class ListCharacterVC: UIViewController, UITableViewDelegate, UITableViewDataSou
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        characterTableView.register(UINib(nibName: "CustomTableViewCell", bundle: nil), forCellReuseIdentifier: "CustomCell")
-        characterTableView.delegate = self
-        characterTableView.dataSource = self
-        characterTableView.reloadData()
+        configureTableView()
     }
-    /*
-    func registerCell() {
-        characterTableView.delegate = self
-        characterTableView.dataSource = self
+    
+    
+    private func configureTableView() {
         characterTableView.register(CustomTableViewCell.nib(), forCellReuseIdentifier: CustomTableViewCell.identifier)
+        characterTableView.dataSource = self
+        characterTableView.delegate = self
+        
+        characterTableView.separatorStyle = .none
     }
-    */
+
     
     
+}
+
+extension ListCharacterVC: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 10
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = characterTableView.dequeueReusableCell(withIdentifier: "CustomCell", for: indexPath) as! CustomTableViewCell
-        cell.configure(with: "Hola", description: "Rodrigo", imageName: "gear")
+        let cell = characterTableView.dequeueReusableCell(withIdentifier: CustomTableViewCell.identifier, for: indexPath) as! CustomTableViewCell
+        cell.configureCell(title: "Hola", description: "Esta es una celda", imageName: "gear")
         return cell
     }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        let height : CGFloat = 150
+        return height
+    }
+    
+    
 }
 

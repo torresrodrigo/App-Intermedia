@@ -7,7 +7,7 @@
 
 import UIKit
 
-extension UIViewController {
+extension UIViewController{
     
     func embeddedInNavigation() -> BaseNavigationController {
         return BaseNavigationController(rootViewController: self)
