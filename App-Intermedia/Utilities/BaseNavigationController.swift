@@ -19,5 +19,10 @@ class BaseNavigationController: UINavigationController {
         navBar.barStyle = .black
         navBar.isTranslucent = false
         navBar.barTintColor = #colorLiteral(red: 0.149002701, green: 0.1490303874, blue: 0.148996681, alpha: 1)
+        navBar.tintColor = .white
       }
+    
+    @objc func logOut() {
+        
+    }
 }

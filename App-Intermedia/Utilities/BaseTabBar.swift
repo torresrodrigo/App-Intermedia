@@ -7,7 +7,7 @@
 
 import UIKit
 
-class MainTabBar: UITabBarController {
+class BaseTabBar: UITabBarController {
         
     let titleNav = "Marvel Challenge"
     

@@ -21,7 +21,7 @@ class LoginVC: UIViewController {
     }
     
     @IBAction func btnLoginPressed(_ sender: Any) {
-        let tab = MainTabBar()
+        let tab = BaseTabBar()
         tab.modalPresentationStyle = .fullScreen
         present(tab, animated: true)
     }

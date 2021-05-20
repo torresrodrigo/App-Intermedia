@@ -6,9 +6,23 @@
 //
 
 import UIKit
+import SDWebImage
 
-class CustomTableViewCell: UITableViewCell {
+class CharactersTableViewCell: UITableViewCell {
 
+    var characterDetails : Characters! {
+        didSet {
+            titleCell.text = characterDetails.name
+            descriptionCell.text = characterDetails.description
+            
+            
+            guard let path = characterDetails.thumbnail?.path, let ext = characterDetails.thumbnail?.fileExtension else {return}
+            let url = path + "." + ext
+            imageCell?.sd_setImage(with: URL(string: url))
+            
+        }
+    }
+    
     
     @IBOutlet weak var containerView: UIView!
     @IBOutlet var imageCell: UIImageView!
@@ -25,18 +39,15 @@ class CustomTableViewCell: UITableViewCell {
         setupUI()
     }
     
-    public func configureCell(title: String, description: String, imageName: String){
-        titleCell.text? = title.uppercased()
-        descriptionCell.text = description
-        imageCell.image = UIImage(systemName: imageName)
-        
-    }
     
     private func setupUI() {
         containerView.layer.cornerRadius = 5
         containerView.backgroundColor = .white
         contentView.backgroundColor = #colorLiteral(red: 0.8895466059, green: 0.893653141, blue: 0.9059727462, alpha: 1)
         selectionStyle = .none
+        
+        imageCell.contentMode = .scaleAspectFill
+        imageCell.clipsToBounds = true
         
     }
     

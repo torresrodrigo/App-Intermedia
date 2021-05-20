@@ -10,35 +10,56 @@ import UIKit
 class ListEventsVC: UIViewController {
 
     @IBOutlet weak var eventsTableView: UITableView!
-    let characters = [Characters]()
     
+    var eventsList = [Events]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         configureTableView()
+        getEventsData()
     }
+   
     
     
     private func configureTableView() {
-        eventsTableView.register(CustomTableViewCell.nib(), forCellReuseIdentifier: CustomTableViewCell.identifier)
+        eventsTableView.register(EventsTableViewCell.nib(), forCellReuseIdentifier: EventsTableViewCell.identifier)
         eventsTableView.dataSource = self
         eventsTableView.delegate = self
         
         eventsTableView.separatorStyle = .none
     }
+    
+    
+    func getEventsData() {
+        ServiceAPI.shared.getEvents(limit: 25) { result in
+            switch result {
+            case .success(let result):
+                print(result)
+                self.eventsList = result.apiDataSource?.events ?? []
+                print(self.eventsList.count)
+                
+                DispatchQueue.main.async {
+                    self.eventsTableView.reloadData()
+                }
+                
+            case .failure(let error):
+                print(error)
+                }
+            }
+        }
+    }
+    
 
-    
-    
-}
 
 extension ListEventsVC: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return eventsList.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = eventsTableView.dequeueReusableCell(withIdentifier: CustomTableViewCell.identifier, for: indexPath) as! CustomTableViewCell
-        cell.configureCell(title: "Chau", description: "Esta es otra celda", imageName: "gear")
+        let cell = eventsTableView.dequeueReusableCell(withIdentifier: EventsTableViewCell.identifier, for: indexPath) as! EventsTableViewCell
+        let cellData = eventsList[indexPath.row]
+        cell.eventsDetails = cellData
         return cell
     }
     
