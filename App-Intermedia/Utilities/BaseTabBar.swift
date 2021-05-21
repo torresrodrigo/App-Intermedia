@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class BaseTabBar: UITabBarController {
         
@@ -31,8 +32,22 @@ class BaseTabBar: UITabBarController {
         vc2.view.backgroundColor = .blue
         vc1.navigationItem.title = titleNav
         vc2.navigationItem.title = titleNav
-        
+        vc1.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Logout", style: .plain, target: self, action: #selector(logOut))
+        vc2.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Logout", style: .plain, target: self, action: #selector(logOut))
+        vc1.navigationItem.rightBarButtonItem?.tintColor = .white
+        vc2.navigationItem.rightBarButtonItem?.tintColor = .white
         setViewControllers([vc1.embeddedInNavigation(), vc2.embeddedInNavigation()], animated: false)
     }
     
-}
+    @objc func logOut() {
+            do {
+                try Auth.auth().signOut()
+                let login = LoginVC(nibName: "LoginVC", bundle: nil)
+                login.modalTransitionStyle = .crossDissolve
+                login.modalPresentationStyle = .fullScreen
+                present(login, animated: true, completion: nil)
+            } catch let err {
+                print(err)
+            }
+        }
+    }

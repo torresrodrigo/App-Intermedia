@@ -7,7 +7,7 @@
 
 import UIKit
 
-class LoginVC: UIViewController {
+class LoginVC: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var emailTxtFld: UITextField!
     @IBOutlet weak var passwordTxtFld: UITextField!
@@ -15,15 +15,34 @@ class LoginVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         setupUI()
-        
     }
     
     @IBAction func btnLoginPressed(_ sender: Any) {
-        let tab = BaseTabBar()
-        tab.modalPresentationStyle = .fullScreen
-        present(tab, animated: true)
+        if emailTxtFld.text != nil && passwordTxtFld.text != nil {
+            FirebaseAuthService.instance.loginUser(withEmail: emailTxtFld.text!, andPassword: passwordTxtFld.text!) { (sucess, loginError) in
+                if sucess {
+                    let tab = BaseTabBar(nibName: "BaseTabBar", bundle: nil)
+                    tab.modalPresentationStyle = .fullScreen
+                    self.present(tab, animated: true)
+                } else {
+                    print(String(describing: loginError?.localizedDescription))
+                }
+                
+                FirebaseAuthService.instance.registerUser(withEmail: self.emailTxtFld.text!, andPassword: self.passwordTxtFld.text!) { (sucess, registrationError) in
+                    if sucess {
+                        FirebaseAuthService.instance.loginUser(withEmail: self.emailTxtFld.text!, andPassword: self.passwordTxtFld.text!) { (sucess, nil) in
+                            print("Sucessfully registered user")
+                            let tab = BaseTabBar(nibName: "BaseTabBar", bundle: nil)
+                            tab.modalPresentationStyle = .fullScreen
+                            self.present(tab, animated: true)
+                        }
+                    }
+                }
+                
+            }
+        }
+        
     }
     
     func setupUI() {

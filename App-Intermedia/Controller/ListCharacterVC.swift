@@ -21,7 +21,6 @@ class ListCharacterVC: UIViewController  {
     override func viewDidLoad() {
         super.viewDidLoad()
         configureTableView()
-        setupNavigation()
         getCharactersData()
     }
     
@@ -35,7 +34,6 @@ class ListCharacterVC: UIViewController  {
     }
     
     func getCharactersData() {
-        DispatchQueue.global().async {
         ServiceAPI.shared.getCharacters(limit: 15,  offset: 0) { result in
             switch result {
             case .success(let result):
@@ -48,7 +46,6 @@ class ListCharacterVC: UIViewController  {
             }
         }
     }
-}
     
     
     func getMoreCharactersData() {
@@ -66,12 +63,6 @@ class ListCharacterVC: UIViewController  {
             }
         }
     }
-    
-    private func setupNavigation() {
-        self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Logout", style: .plain, target: nil, action: #selector(logOut))
-        self.navigationItem.rightBarButtonItem?.tintColor = .white
-    }
-    
     
     @objc func logOut() {
         
@@ -111,6 +102,7 @@ extension ListCharacterVC: UITableViewDelegate, UITableViewDataSource {
         let dataCharacters = charactersList[indexPath.row]
         let detailCharacterVC = DetailVC(nibName: "DetailVC", bundle: nil)
         detailCharacterVC.characterDetail = dataCharacters
+        detailCharacterVC.hidesBottomBarWhenPushed = true
         self.navigationController?.pushViewController(detailCharacterVC, animated: true)
     }
 }

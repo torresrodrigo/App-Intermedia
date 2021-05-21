@@ -10,8 +10,10 @@
 		3682F70F815FE54A616DC91F /* Pods_App_Intermedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DFCC981D5D25C545C58B133 /* Pods_App_Intermedia.framework */; };
 		880042B32656485F009048E8 /* ComicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880042B12656485F009048E8 /* ComicTableViewCell.swift */; };
 		880042B42656485F009048E8 /* ComicTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 880042B22656485F009048E8 /* ComicTableViewCell.xib */; };
+		880042B7265673EC009048E8 /* FirebaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880042B6265673EC009048E8 /* FirebaseService.swift */; };
 		88085AAF264C33350025DAA8 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88085AAD264C33350025DAA8 /* LoginVC.swift */; };
 		88085AB0264C33360025DAA8 /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88085AAE264C33350025DAA8 /* LoginVC.xib */; };
+		884BB29226568CF800D22C67 /* FirebaseAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884BB29126568CF800D22C67 /* FirebaseAuthService.swift */; };
 		888B54B6264F029700410CD1 /* CharactersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888B54B4264F029700410CD1 /* CharactersTableViewCell.swift */; };
 		888B54B7264F029700410CD1 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 888B54B5264F029700410CD1 /* CustomTableViewCell.xib */; };
 		888B54BF264F08F900410CD1 /* Characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888B54BE264F08F900410CD1 /* Characters.swift */; };
@@ -32,6 +34,7 @@
 		88A6D843264C1FDD00A0217B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 88A6D842264C1FDD00A0217B /* GoogleService-Info.plist */; };
 		88B48D9F2654838C005CCDDE /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B48D9E2654838C005CCDDE /* Service.swift */; };
 		88B48DA2265483FD005CCDDE /* ErrorMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B48DA1265483FD005CCDDE /* ErrorMsg.swift */; };
+		88B751602656B04200DD4ACA /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B7515F2656B04200DD4ACA /* String+Extension.swift */; };
 		88CD22B62654E757000024A3 /* EventsBaseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CD22B52654E756000024A3 /* EventsBaseData.swift */; };
 		88CD22B82654E771000024A3 /* EventsDataSources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CD22B72654E771000024A3 /* EventsDataSources.swift */; };
 		88CD22BA2654E77F000024A3 /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CD22B92654E77F000024A3 /* Events.swift */; };
@@ -52,8 +55,10 @@
 		7F17DC74AD87D1EE001DC885 /* Pods-App-Intermedia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-Intermedia.release.xcconfig"; path = "Target Support Files/Pods-App-Intermedia/Pods-App-Intermedia.release.xcconfig"; sourceTree = "<group>"; };
 		880042B12656485F009048E8 /* ComicTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicTableViewCell.swift; sourceTree = "<group>"; };
 		880042B22656485F009048E8 /* ComicTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ComicTableViewCell.xib; sourceTree = "<group>"; };
+		880042B6265673EC009048E8 /* FirebaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseService.swift; sourceTree = "<group>"; };
 		88085AAD264C33350025DAA8 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		88085AAE264C33350025DAA8 /* LoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
+		884BB29126568CF800D22C67 /* FirebaseAuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthService.swift; sourceTree = "<group>"; };
 		888B54B4264F029700410CD1 /* CharactersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersTableViewCell.swift; sourceTree = "<group>"; };
 		888B54B5264F029700410CD1 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
 		888B54BE264F08F900410CD1 /* Characters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Characters.swift; sourceTree = "<group>"; };
@@ -76,6 +81,7 @@
 		88A6D842264C1FDD00A0217B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		88B48D9E2654838C005CCDDE /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		88B48DA1265483FD005CCDDE /* ErrorMsg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMsg.swift; sourceTree = "<group>"; };
+		88B7515F2656B04200DD4ACA /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		88CD22B52654E756000024A3 /* EventsBaseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsBaseData.swift; sourceTree = "<group>"; };
 		88CD22B72654E771000024A3 /* EventsDataSources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsDataSources.swift; sourceTree = "<group>"; };
 		88CD22B92654E77F000024A3 /* Events.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
@@ -143,6 +149,7 @@
 			children = (
 				88964E59264CDE960017D04F /* UITextField+Extensions.swift */,
 				88946CBE264D75F30041E26F /* UIViewController+Extensions.swift */,
+				88B7515F2656B04200DD4ACA /* String+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -297,6 +304,8 @@
 			isa = PBXGroup;
 			children = (
 				88B48D9E2654838C005CCDDE /* Service.swift */,
+				880042B6265673EC009048E8 /* FirebaseService.swift */,
+				884BB29126568CF800D22C67 /* FirebaseAuthService.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -438,6 +447,7 @@
 				880042B32656485F009048E8 /* ComicTableViewCell.swift in Sources */,
 				88F2876E26530FBC0044FA37 /* Thumbnail.swift in Sources */,
 				888B54B6264F029700410CD1 /* CharactersTableViewCell.swift in Sources */,
+				884BB29226568CF800D22C67 /* FirebaseAuthService.swift in Sources */,
 				88F70CB1265534D300940F37 /* DetailVC.swift in Sources */,
 				888B54BF264F08F900410CD1 /* Characters.swift in Sources */,
 				88CD22B62654E757000024A3 /* EventsBaseData.swift in Sources */,
@@ -448,7 +458,9 @@
 				88946CBF264D75F30041E26F /* UIViewController+Extensions.swift in Sources */,
 				88946CC2264D7C7F0041E26F /* BaseNavigationController.swift in Sources */,
 				88CD22BA2654E77F000024A3 /* Events.swift in Sources */,
+				880042B7265673EC009048E8 /* FirebaseService.swift in Sources */,
 				88A6D82C264C1B4D00A0217B /* SceneDelegate.swift in Sources */,
+				88B751602656B04200DD4ACA /* String+Extension.swift in Sources */,
 				88B48D9F2654838C005CCDDE /* Service.swift in Sources */,
 				88F70CAE2655334400940F37 /* ComicCharacter.swift in Sources */,
 				88F287702653106C0044FA37 /* CharacterBaseData.swift in Sources */,
