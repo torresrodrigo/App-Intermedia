@@ -11,7 +11,7 @@ struct Events: Codable {
     
     let id: Int
     let title: String
-    let start: Date
+    //let start: Date
     let thumbnail: Thumbnail?
     
     

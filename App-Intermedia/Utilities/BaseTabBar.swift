@@ -23,19 +23,26 @@ class BaseTabBar: UITabBarController {
         tabBar.isTranslucent = false
         tabBar.barTintColor = UIColor(cgColor: #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1))
         tabBar.tintColor = .black
-
+        
+       
+       //Characters
         let vc1 = ListCharacterVC()
-        let vc2 = ListEventsVC()
         vc1.title = "Characters"
-        vc1.view.backgroundColor = .red
-        vc2.title = "Events"
-        vc2.view.backgroundColor = .blue
+        //vc1.tabBarItem.image = UIImage(named: "iron-man")?.withRenderingMode(UIImage.RenderingMode.alwaysOriginal)
+        //vc1.tabBarItem.selectedImage = UIImage(named: "iron-man")?.withRenderingMode(UIImage.RenderingMode.alwaysOriginal)
+        //vc1.tabBarItem.imageInsets = UIEdgeInsets(top: 6, left: 0, bottom: -6, right: 0)
         vc1.navigationItem.title = titleNav
-        vc2.navigationItem.title = titleNav
         vc1.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Logout", style: .plain, target: self, action: #selector(logOut))
-        vc2.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Logout", style: .plain, target: self, action: #selector(logOut))
         vc1.navigationItem.rightBarButtonItem?.tintColor = .white
+
+        //Events
+        let vc2 = ListEventsVC()
+        vc2.title = "Events"
+        vc2.navigationItem.title = titleNav
+        vc2.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Logout", style: .plain, target: self, action: #selector(logOut))
         vc2.navigationItem.rightBarButtonItem?.tintColor = .white
+        
+        
         setViewControllers([vc1.embeddedInNavigation(), vc2.embeddedInNavigation()], animated: false)
     }
     

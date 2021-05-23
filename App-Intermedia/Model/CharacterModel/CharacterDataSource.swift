@@ -12,6 +12,7 @@ struct CharacterDataSource : Codable {
     let characters: [Characters]?
     let limit: Int?
     
+    
     enum CodingKeys: String, CodingKey{
         case characters = "results"
         case limit

@@ -12,7 +12,10 @@
             <connections>
                 <outlet property="btnLogin" destination="BnE-cx-NFe" id="AIM-R3-liE"/>
                 <outlet property="emailTxtFld" destination="Cyo-0k-EmK" id="Yru-Wz-vzJ"/>
+                <outlet property="errorLabel" destination="zHm-Sb-0X2" id="bSa-ab-Rx2"/>
+                <outlet property="errorView" destination="uqQ-0I-geC" id="Dor-Eo-fhS"/>
                 <outlet property="passwordTxtFld" destination="q29-RZ-yhQ" id="5Oi-0p-jcq"/>
+                <outlet property="stackViewTxtFld" destination="88n-p0-z6a" id="hGt-ur-dAy"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -137,12 +140,32 @@
                         <action selector="btnLoginPressed:" destination="-1" eventType="touchUpInside" id="5JO-3g-68v"/>
                     </connections>
                 </button>
+                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uqQ-0I-geC">
+                    <rect key="frame" x="16" y="584" width="343" height="67"/>
+                    <subviews>
+                        <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The combination of Email of Password is not correct. Please retry." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zHm-Sb-0X2">
+                            <rect key="frame" x="16" y="16" width="311" height="35"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="highlightedColor" red="0.52380100239788163" green="0.52380100239788163" blue="0.52380100239788163" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.12453748279827637" green="0.12453748279827637" blue="0.12453748279827637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="zHm-Sb-0X2" secondAttribute="trailing" constant="16" id="6Aj-03-yEb"/>
+                        <constraint firstAttribute="bottom" secondItem="zHm-Sb-0X2" secondAttribute="bottom" constant="16" id="FWU-CS-GP5"/>
+                        <constraint firstAttribute="height" constant="67" id="SGu-s4-dk3"/>
+                        <constraint firstItem="zHm-Sb-0X2" firstAttribute="leading" secondItem="uqQ-0I-geC" secondAttribute="leading" constant="16" id="ZMY-NN-rNc"/>
+                        <constraint firstItem="zHm-Sb-0X2" firstAttribute="top" secondItem="uqQ-0I-geC" secondAttribute="top" constant="16" id="eW7-mF-qkB"/>
+                    </constraints>
+                </view>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" red="0.92549019607843142" green="0.93725490196078431" blue="0.94509803921568625" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
                 <constraint firstItem="88n-p0-z6a" firstAttribute="centerX" secondItem="fvA-eN-4l6" secondAttribute="centerX" id="0sh-oO-JID"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="88n-p0-z6a" secondAttribute="trailing" constant="16" id="3ga-Rd-Ka0"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="uqQ-0I-geC" secondAttribute="trailing" constant="16" id="Djb-s5-6do"/>
                 <constraint firstItem="0uK-fc-TQo" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="23" id="EMz-JV-eca"/>
                 <constraint firstItem="fvA-eN-4l6" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="IgT-7H-ZaA"/>
                 <constraint firstItem="fvA-eN-4l6" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="TIQ-u6-Xxo"/>
@@ -150,6 +173,8 @@
                 <constraint firstItem="88n-p0-z6a" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="177" id="Xb4-tW-Mnl"/>
                 <constraint firstItem="fvA-eN-4l6" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="XbY-x2-QDh"/>
                 <constraint firstItem="88n-p0-z6a" firstAttribute="top" secondItem="fvA-eN-4l6" secondAttribute="bottom" constant="22" id="c5c-xR-3MN"/>
+                <constraint firstItem="uqQ-0I-geC" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="e4k-Ko-H7Y"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="uqQ-0I-geC" secondAttribute="bottom" constant="16" id="nTW-4C-DgY"/>
                 <constraint firstItem="BnE-cx-NFe" firstAttribute="top" secondItem="88n-p0-z6a" secondAttribute="bottom" constant="28" id="sCv-3r-2VO"/>
                 <constraint firstItem="BnE-cx-NFe" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="145" id="sm0-vm-GYc"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="BnE-cx-NFe" secondAttribute="trailing" constant="145" id="z2u-pm-Psq"/>

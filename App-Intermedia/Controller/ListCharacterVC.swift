@@ -56,16 +56,11 @@ class ListCharacterVC: UIViewController  {
                 DispatchQueue.main.async {
                     self.characterTableView.reloadData()
                 }
-                
-
+            
             case .failure(let error):
                 print(error)
             }
         }
-    }
-    
-    @objc func logOut() {
-        
     }
     
 }

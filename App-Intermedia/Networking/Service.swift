@@ -11,13 +11,12 @@ class ServiceAPI {
     
     static let shared = ServiceAPI()
     
-    let baseUrl = "https://gateway.marvel.com"
     
     
     func getCharacters(limit : Int, offset: Int , completed: @escaping (Result<CharacterBaseData, ErrorMessage>) -> Void) {
         
         
-        let urlString : String = "\(baseUrl)/v1/public/characters?limit=\(limit)&offset=\(offset)&ts=1&apikey=\(publicKey)&hash=\(hash)"
+        let urlString : String = "https://gateway.marvel.com/v1/public/characters?limit=\(limit)&offset=\(offset)&ts=1&apikey=\(publicKey)&hash=\(hash)"
         
         guard let url = URL(string: urlString) else {return}
         
@@ -59,7 +58,7 @@ class ServiceAPI {
     func getEvents(limit : Int , completed: @escaping (Result<EventBaseData, ErrorMessage>) -> Void) {
         
         
-        let urlString : String = "\(baseUrl)/v1/public/events?limit=\(limit)&ts=1&apikey=\(publicKey)&hash=\(hash)"
+        let urlString : String = "https://gateway.marvel.com/v1/public/events?limit=\(limit)&ts=1&apikey=\(publicKey)&hash=\(hash)"
         
         guard let url = URL(string: urlString) else {return}
         
@@ -89,15 +88,10 @@ class ServiceAPI {
                 
             } catch {
                 completed(.failure(.invalidData))
+                print(error.localizedDescription)
             }
-            
-            
         }
         task.resume()
     }
-    
-    
-
-    
     
 }

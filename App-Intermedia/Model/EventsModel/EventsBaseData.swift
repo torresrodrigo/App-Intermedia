@@ -9,7 +9,7 @@ import Foundation
 
 struct EventBaseData: Codable {
     let responseCode: Int?
-    let apiDataSource: EventDataSource?
+    let apiDataSource: EventsDataSource?
     
     enum CodingKeys: String, CodingKey{
         case responseCode = "code"

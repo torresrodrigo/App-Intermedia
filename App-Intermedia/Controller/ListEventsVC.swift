@@ -31,25 +31,26 @@ class ListEventsVC: UIViewController {
     
     
     func getEventsData() {
-        ServiceAPI.shared.getEvents(limit: 25) { result in
-            switch result {
-            case .success(let result):
-                print(result)
-                self.eventsList = result.apiDataSource?.events ?? []
-                print(self.eventsList.count)
-                
-                DispatchQueue.main.async {
-                    self.eventsTableView.reloadData()
-                }
-                
-            case .failure(let error):
-                print(error)
+        DispatchQueue.global().async {
+            ServiceAPI.shared.getEvents(limit: 25) { result in
+                switch result {
+                case .success(let result):
+                    print(result)
+                    self.eventsList = result.apiDataSource?.events ?? []
+                    print(self.eventsList)
+                    
+                    DispatchQueue.main.async {
+                        self.eventsTableView.reloadData()
+                    }
+                    
+                case .failure(let error):
+                    print(error)
+                    }
                 }
             }
         }
     }
     
-
 
 extension ListEventsVC: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

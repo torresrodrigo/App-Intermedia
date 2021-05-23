@@ -23,614 +23,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "A843AFAA-9B3A-490B-B639-1E8962462584"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "App-Intermedia/Model/EventsModel/EventsBaseData.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "10"
-            endingLineNumber = "10"
-            landmarkName = "EventBaseData"
-            landmarkType = "14">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "C996B706-E39A-4E48-AD79-EB9A50520934"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "App-Intermedia/Model/EventsModel/EventsBaseData.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "11"
-            endingLineNumber = "11"
-            landmarkName = "EventBaseData"
-            landmarkType = "14">
-            <Locations>
-               <Location
-                  uuid = "C996B706-E39A-4E48-AD79-EB9A50520934 - 39d617a406260607"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "App_Intermedia.EventBaseData.CodingKeys.init(rawValue: Swift.String) -&gt; Swift.Optional&lt;App_Intermedia.EventBaseData.CodingKeys&gt;"
-                  moduleName = "App-Intermedia"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rodrigotorres/Documents/Proyectos/App-Intermedia/App-Intermedia/Model/EventsModel/EventsBaseData.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
-                  offsetFromSymbolStart = "86">
-               </Location>
-               <Location
-                  uuid = "C996B706-E39A-4E48-AD79-EB9A50520934 - c0fdb8aece85ba99"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "App_Intermedia.EventBaseData.CodingKeys.rawValue.getter : Swift.String"
-                  moduleName = "App-Intermedia"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rodrigotorres/Documents/Proyectos/App-Intermedia/App-Intermedia/Model/EventsModel/EventsBaseData.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
-                  offsetFromSymbolStart = "48">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "A42B940E-C2D7-474C-B43F-F3F4595D30F9"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "App-Intermedia/Model/EventsModel/EventsBaseData.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "12"
-            endingLineNumber = "12"
-            landmarkName = "EventBaseData"
-            landmarkType = "14">
-            <Locations>
-               <Location
-                  uuid = "A42B940E-C2D7-474C-B43F-F3F4595D30F9 - 39d617a406260607"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "App_Intermedia.EventBaseData.CodingKeys.init(rawValue: Swift.String) -&gt; Swift.Optional&lt;App_Intermedia.EventBaseData.CodingKeys&gt;"
-                  moduleName = "App-Intermedia"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rodrigotorres/Documents/Proyectos/App-Intermedia/App-Intermedia/Model/EventsModel/EventsBaseData.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
-                  offsetFromSymbolStart = "86">
-               </Location>
-               <Location
-                  uuid = "A42B940E-C2D7-474C-B43F-F3F4595D30F9 - c0fdb8aece85ba99"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "App_Intermedia.EventBaseData.CodingKeys.rawValue.getter : Swift.String"
-                  moduleName = "App-Intermedia"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rodrigotorres/Documents/Proyectos/App-Intermedia/App-Intermedia/Model/EventsModel/EventsBaseData.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
-                  offsetFromSymbolStart = "48">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "9BAE033F-3A8A-42B6-A939-1E543E665BFC"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "App-Intermedia/Model/EventsModel/EventsBaseData.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "13"
-            endingLineNumber = "13"
-            landmarkName = "EventBaseData"
-            landmarkType = "14">
-            <Locations>
-               <Location
-                  uuid = "9BAE033F-3A8A-42B6-A939-1E543E665BFC - 39d617a406260607"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "App_Intermedia.EventBaseData.CodingKeys.init(rawValue: Swift.String) -&gt; Swift.Optional&lt;App_Intermedia.EventBaseData.CodingKeys&gt;"
-                  moduleName = "App-Intermedia"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rodrigotorres/Documents/Proyectos/App-Intermedia/App-Intermedia/Model/EventsModel/EventsBaseData.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
-                  offsetFromSymbolStart = "86">
-               </Location>
-               <Location
-                  uuid = "9BAE033F-3A8A-42B6-A939-1E543E665BFC - c0fdb8aece85ba99"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "App_Intermedia.EventBaseData.CodingKeys.rawValue.getter : Swift.String"
-                  moduleName = "App-Intermedia"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rodrigotorres/Documents/Proyectos/App-Intermedia/App-Intermedia/Model/EventsModel/EventsBaseData.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
-                  offsetFromSymbolStart = "48">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "8347259C-3A73-4847-94B2-1C16521A51DB"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "App-Intermedia/Model/EventsModel/EventsBaseData.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "14"
-            endingLineNumber = "14"
-            landmarkName = "CodingKeys"
-            landmarkType = "13">
-            <Locations>
-               <Location
-                  uuid = "8347259C-3A73-4847-94B2-1C16521A51DB - 39d617a406260607"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "App_Intermedia.EventBaseData.CodingKeys.init(rawValue: Swift.String) -&gt; Swift.Optional&lt;App_Intermedia.EventBaseData.CodingKeys&gt;"
-                  moduleName = "App-Intermedia"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rodrigotorres/Documents/Proyectos/App-Intermedia/App-Intermedia/Model/EventsModel/EventsBaseData.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
-                  offsetFromSymbolStart = "86">
-               </Location>
-               <Location
-                  uuid = "8347259C-3A73-4847-94B2-1C16521A51DB - c0fdb8aece85ba99"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "App_Intermedia.EventBaseData.CodingKeys.rawValue.getter : Swift.String"
-                  moduleName = "App-Intermedia"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rodrigotorres/Documents/Proyectos/App-Intermedia/App-Intermedia/Model/EventsModel/EventsBaseData.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
-                  offsetFromSymbolStart = "48">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "ED0CB144-5E39-453A-9797-B9535CB186FA"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "App-Intermedia/Model/EventsModel/EventsBaseData.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "15"
-            endingLineNumber = "15"
-            landmarkName = "CodingKeys"
-            landmarkType = "13">
-            <Locations>
-               <Location
-                  uuid = "ED0CB144-5E39-453A-9797-B9535CB186FA - 39d617a406260607"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "App_Intermedia.EventBaseData.CodingKeys.init(rawValue: Swift.String) -&gt; Swift.Optional&lt;App_Intermedia.EventBaseData.CodingKeys&gt;"
-                  moduleName = "App-Intermedia"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rodrigotorres/Documents/Proyectos/App-Intermedia/App-Intermedia/Model/EventsModel/EventsBaseData.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
-                  offsetFromSymbolStart = "86">
-               </Location>
-               <Location
-                  uuid = "ED0CB144-5E39-453A-9797-B9535CB186FA - c0fdb8aece85ba99"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "App_Intermedia.EventBaseData.CodingKeys.rawValue.getter : Swift.String"
-                  moduleName = "App-Intermedia"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rodrigotorres/Documents/Proyectos/App-Intermedia/App-Intermedia/Model/EventsModel/EventsBaseData.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
-                  offsetFromSymbolStart = "48">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "1BF59C1A-B3FE-41F1-9664-04806FC3466A"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "App-Intermedia/Model/EventsModel/EventsBaseData.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "16"
-            endingLineNumber = "16"
-            landmarkName = "CodingKeys"
-            landmarkType = "13">
-            <Locations>
-               <Location
-                  uuid = "1BF59C1A-B3FE-41F1-9664-04806FC3466A - 39d617a4062606e6"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "App_Intermedia.EventBaseData.CodingKeys.init(rawValue: Swift.String) -&gt; Swift.Optional&lt;App_Intermedia.EventBaseData.CodingKeys&gt;"
-                  moduleName = "App-Intermedia"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rodrigotorres/Documents/Proyectos/App-Intermedia/App-Intermedia/Model/EventsModel/EventsBaseData.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16"
-                  offsetFromSymbolStart = "125">
-               </Location>
-               <Location
-                  uuid = "1BF59C1A-B3FE-41F1-9664-04806FC3466A - c0fdb8aece85ba78"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "App_Intermedia.EventBaseData.CodingKeys.rawValue.getter : Swift.String"
-                  moduleName = "App-Intermedia"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rodrigotorres/Documents/Proyectos/App-Intermedia/App-Intermedia/Model/EventsModel/EventsBaseData.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16"
-                  offsetFromSymbolStart = "80">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "11312049-4E45-4960-9148-5058D2BA27CB"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "App-Intermedia/Model/EventsModel/EventsDataSources.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "12"
-            endingLineNumber = "12"
-            landmarkName = "EventDataSource"
-            landmarkType = "14">
-            <Locations>
-               <Location
-                  uuid = "11312049-4E45-4960-9148-5058D2BA27CB - c27d1b768e16db91"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "App_Intermedia.EventDataSource.CodingKeys.init(rawValue: Swift.String) -&gt; Swift.Optional&lt;App_Intermedia.EventDataSource.CodingKeys&gt;"
-                  moduleName = "App-Intermedia"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rodrigotorres/Documents/Proyectos/App-Intermedia/App-Intermedia/Model/EventsModel/EventsDataSources.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16"
-                  offsetFromSymbolStart = "86">
-               </Location>
-               <Location
-                  uuid = "11312049-4E45-4960-9148-5058D2BA27CB - 9db3e4f1315c038d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "App_Intermedia.EventDataSource.CodingKeys.rawValue.getter : Swift.String"
-                  moduleName = "App-Intermedia"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rodrigotorres/Documents/Proyectos/App-Intermedia/App-Intermedia/Model/EventsModel/EventsDataSources.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16"
-                  offsetFromSymbolStart = "48">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "6375B39C-AA7A-4CB6-946C-821E501C1C1F"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "App-Intermedia/Model/EventsModel/EventsDataSources.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "13"
-            endingLineNumber = "13"
-            landmarkName = "EventDataSource"
-            landmarkType = "14">
-            <Locations>
-               <Location
-                  uuid = "6375B39C-AA7A-4CB6-946C-821E501C1C1F - c27d1b768e16db91"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "App_Intermedia.EventDataSource.CodingKeys.init(rawValue: Swift.String) -&gt; Swift.Optional&lt;App_Intermedia.EventDataSource.CodingKeys&gt;"
-                  moduleName = "App-Intermedia"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rodrigotorres/Documents/Proyectos/App-Intermedia/App-Intermedia/Model/EventsModel/EventsDataSources.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16"
-                  offsetFromSymbolStart = "86">
-               </Location>
-               <Location
-                  uuid = "6375B39C-AA7A-4CB6-946C-821E501C1C1F - 9db3e4f1315c038d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "App_Intermedia.EventDataSource.CodingKeys.rawValue.getter : Swift.String"
-                  moduleName = "App-Intermedia"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rodrigotorres/Documents/Proyectos/App-Intermedia/App-Intermedia/Model/EventsModel/EventsDataSources.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16"
-                  offsetFromSymbolStart = "48">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "94016530-AF2F-4C95-A648-F002515020AC"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "App-Intermedia/Model/EventsModel/EventsDataSources.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "15"
-            endingLineNumber = "15"
-            landmarkName = "CodingKeys"
-            landmarkType = "13">
-            <Locations>
-               <Location
-                  uuid = "94016530-AF2F-4C95-A648-F002515020AC - c27d1b768e16db91"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "App_Intermedia.EventDataSource.CodingKeys.init(rawValue: Swift.String) -&gt; Swift.Optional&lt;App_Intermedia.EventDataSource.CodingKeys&gt;"
-                  moduleName = "App-Intermedia"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rodrigotorres/Documents/Proyectos/App-Intermedia/App-Intermedia/Model/EventsModel/EventsDataSources.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16"
-                  offsetFromSymbolStart = "86">
-               </Location>
-               <Location
-                  uuid = "94016530-AF2F-4C95-A648-F002515020AC - 9db3e4f1315c038d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "App_Intermedia.EventDataSource.CodingKeys.rawValue.getter : Swift.String"
-                  moduleName = "App-Intermedia"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rodrigotorres/Documents/Proyectos/App-Intermedia/App-Intermedia/Model/EventsModel/EventsDataSources.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16"
-                  offsetFromSymbolStart = "48">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "5098A3DC-57DC-45DC-BD08-5EE0DF78602B"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "App-Intermedia/Model/EventsModel/EventsDataSources.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "16"
-            endingLineNumber = "16"
-            landmarkName = "CodingKeys"
-            landmarkType = "13">
-            <Locations>
-               <Location
-                  uuid = "5098A3DC-57DC-45DC-BD08-5EE0DF78602B - c27d1b768e16db91"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "App_Intermedia.EventDataSource.CodingKeys.init(rawValue: Swift.String) -&gt; Swift.Optional&lt;App_Intermedia.EventDataSource.CodingKeys&gt;"
-                  moduleName = "App-Intermedia"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rodrigotorres/Documents/Proyectos/App-Intermedia/App-Intermedia/Model/EventsModel/EventsDataSources.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16"
-                  offsetFromSymbolStart = "86">
-               </Location>
-               <Location
-                  uuid = "5098A3DC-57DC-45DC-BD08-5EE0DF78602B - 9db3e4f1315c038d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "App_Intermedia.EventDataSource.CodingKeys.rawValue.getter : Swift.String"
-                  moduleName = "App-Intermedia"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rodrigotorres/Documents/Proyectos/App-Intermedia/App-Intermedia/Model/EventsModel/EventsDataSources.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16"
-                  offsetFromSymbolStart = "48">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "7A89A014-0298-441C-B48F-8F5525B570CF"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "App-Intermedia/Model/EventsModel/EventsDataSources.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "17"
-            endingLineNumber = "17"
-            landmarkName = "CodingKeys"
-            landmarkType = "13">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "356F988E-4D35-4AA2-8B59-0AAE63C97F5E"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "App-Intermedia/Model/EventsModel/EventsDataSources.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
-            landmarkName = "init(from:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "A3ED1824-EB6B-4B39-8110-6FAFB9172F31"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "App-Intermedia/Model/EventsModel/EventsDataSources.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
-            landmarkName = "init(from:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "E5DDA00C-A69A-48FF-BCD0-F9E49F2B3EF5"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "App-Intermedia/Model/EventsModel/EventsDataSources.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
-            landmarkName = "init(from:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "2B369913-1FEA-454C-BFB1-1A8BFCF1BA23"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "App-Intermedia/Model/EventsModel/EventsDataSources.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
-            landmarkName = "encode(to:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "4DABF6A8-69B5-4E41-8FD9-F7C4FB2493D4"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "App-Intermedia/Model/EventsModel/EventsDataSources.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
-            landmarkName = "encode(to:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "CE3C8878-2D95-43C8-939E-36B0C4CB11D1"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "App-Intermedia/Model/EventsModel/EventsDataSources.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
-            landmarkName = "encode(to:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "665275C0-A8BD-4665-BAED-3E90E33694D1"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -706,150 +98,6 @@
             endingLineNumber = "10"
             landmarkName = "Event"
             landmarkType = "14">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "DF9A3C87-D888-4D6E-91FF-4CEC1C3679A7"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "App-Intermedia/Model/EventsModel/EventsDataSources.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "10"
-            endingLineNumber = "10"
-            landmarkName = "EventDataSource"
-            landmarkType = "14">
-            <Locations>
-               <Location
-                  uuid = "DF9A3C87-D888-4D6E-91FF-4CEC1C3679A7 - c27d1b768e16db91"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "App_Intermedia.EventDataSource.CodingKeys.init(rawValue: Swift.String) -&gt; Swift.Optional&lt;App_Intermedia.EventDataSource.CodingKeys&gt;"
-                  moduleName = "App-Intermedia"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rodrigotorres/Documents/Proyectos/App-Intermedia/App-Intermedia/Model/EventsModel/EventsDataSources.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16"
-                  offsetFromSymbolStart = "86">
-               </Location>
-               <Location
-                  uuid = "DF9A3C87-D888-4D6E-91FF-4CEC1C3679A7 - 9db3e4f1315c038d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "App_Intermedia.EventDataSource.CodingKeys.rawValue.getter : Swift.String"
-                  moduleName = "App-Intermedia"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rodrigotorres/Documents/Proyectos/App-Intermedia/App-Intermedia/Model/EventsModel/EventsDataSources.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16"
-                  offsetFromSymbolStart = "48">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "623A2778-E829-4EB4-9073-BDD187550849"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "App-Intermedia/View /CustomsCell/EventsCell/EventsTableViewCell.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "14"
-            endingLineNumber = "14"
-            landmarkName = "eventsDetails"
-            landmarkType = "24">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "2D66E708-537C-4C44-A71A-DF4DA2144166"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "App-Intermedia/View /CustomsCell/EventsCell/EventsTableViewCell.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "16"
-            endingLineNumber = "16"
-            landmarkName = "eventsDetails"
-            landmarkType = "24">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "90A04E51-EB83-48D0-B6FA-17EAC86DFABB"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "App-Intermedia/View /CustomsCell/EventsCell/EventsTableViewCell.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "17"
-            endingLineNumber = "17"
-            landmarkName = "eventsDetails"
-            landmarkType = "24">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "B5268DE8-9A66-4E6F-AAAD-8A9144875C54"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "App-Intermedia/View /CustomsCell/EventsCell/EventsTableViewCell.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
-            landmarkName = "eventsDetails"
-            landmarkType = "24">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "172BD607-7251-4A26-853B-01908B86AE0E"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "App-Intermedia/View /CustomsCell/EventsCell/EventsTableViewCell.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
-            landmarkName = "eventsDetails"
-            landmarkType = "24">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "E2451202-C904-4CA9-811F-2BCD5A1F3B3A"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "App-Intermedia/View /CustomsCell/EventsCell/EventsTableViewCell.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "13"
-            endingLineNumber = "13"
-            landmarkName = "eventsDetails"
-            landmarkType = "24">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -961,6 +209,389 @@
             startingLineNumber = "49"
             endingLineNumber = "49"
             landmarkName = "getEvents(limit:completed:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "305E31F9-92C1-49A8-96D6-68211B25EB42"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "App-Intermedia/Networking/Service.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
+            landmarkName = "getEvents(limit:completed:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DD4A410F-EDDD-4C0F-81ED-72B7A0B11B52"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "App-Intermedia/Networking/Service.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "getEvents(limit:completed:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "30C42827-EB7B-4232-BE31-70FF4CE12860"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "App-Intermedia/Model/EventsModel/Events.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "Events"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F0B9E5C5-7C53-4B07-A7DC-3B74A5D48B41"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "App-Intermedia/Model/EventsModel/Events.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "Events"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D567D7EA-2675-49D1-9441-D1F4F0DC1BA9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "App-Intermedia/Model/EventsModel/Events.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "Events"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "084FAA97-383A-4BF3-B673-CF089E58DE90"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "App-Intermedia/Model/EventsModel/Events.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "Events"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "094CE3F5-FC87-4223-BC13-25CB501CC9E8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "App-Intermedia/Controller/LoginVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "btnLoginPressed(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7244A362-FF27-4171-8BEB-F0947AFAF332"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "App-Intermedia/Controller/LoginVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "btnLoginPressed(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7244A362-FF27-4171-8BEB-F0947AFAF332 - fd3533d4b014d520"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "App_Intermedia.LoginVC.btnLoginPressed(Any) -&gt; ()"
+                  moduleName = "App-Intermedia"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodrigotorres/Documents/Proyectos/App-Intermedia/App-Intermedia/Controller/LoginVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "1091">
+               </Location>
+               <Location
+                  uuid = "7244A362-FF27-4171-8BEB-F0947AFAF332 - 8d8e74f6194ddf25"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in App_Intermedia.LoginVC.btnLoginPressed(Any) -&gt; ()"
+                  moduleName = "App-Intermedia"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodrigotorres/Documents/Proyectos/App-Intermedia/App-Intermedia/Controller/LoginVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "149">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9ED614B6-4174-4D1E-ADFA-1B95730F68E9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "App-Intermedia/Controller/LoginVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "btnLoginPressed(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B15B4477-EFB3-4971-85CE-B9024AA2E0C6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "App-Intermedia/Controller/LoginVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "btnLoginPressed(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AE9D6AFA-A2D6-44BF-90D4-C2136B4060CF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "App-Intermedia/Controller/LoginVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "btnLoginPressed(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "17BA0F04-6BE7-4EEF-984F-D60FE5965470"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "App-Intermedia/Controller/LoginVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "btnLoginPressed(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "079E729D-0C9A-48A2-A89B-6C120D2CE18D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "App-Intermedia/Controller/LoginVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "btnLoginPressed(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F27D1F99-767A-4011-9CB1-96E7E5EA8392"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "App-Intermedia/Controller/LoginVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "btnLoginPressed(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "535AAE31-D4E9-401D-BD77-08938902D6D4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "App-Intermedia/Controller/LoginVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "showError()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "535AAE31-D4E9-401D-BD77-08938902D6D4 - 61171b15e8064ed"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "App_Intermedia.LoginVC.showError() -&gt; ()"
+                  moduleName = "App-Intermedia"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodrigotorres/Documents/Proyectos/App-Intermedia/App-Intermedia/Controller/LoginVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "457">
+               </Location>
+               <Location
+                  uuid = "535AAE31-D4E9-401D-BD77-08938902D6D4 - 761908b0da7337c6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in App_Intermedia.LoginVC.showError() -&gt; ()"
+                  moduleName = "App-Intermedia"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodrigotorres/Documents/Proyectos/App-Intermedia/App-Intermedia/Controller/LoginVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "55">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6FE888C8-A56F-45BD-93F6-6356B7318011"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "App-Intermedia/Controller/LoginVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "showError()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6FE888C8-A56F-45BD-93F6-6356B7318011 - 61171b15e806488"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "App_Intermedia.LoginVC.showError() -&gt; ()"
+                  moduleName = "App-Intermedia"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodrigotorres/Documents/Proyectos/App-Intermedia/App-Intermedia/Controller/LoginVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "73"
+                  endingLineNumber = "73"
+                  offsetFromSymbolStart = "705">
+               </Location>
+               <Location
+                  uuid = "6FE888C8-A56F-45BD-93F6-6356B7318011 - 761908b0da733784"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in App_Intermedia.LoginVC.showError() -&gt; ()"
+                  moduleName = "App-Intermedia"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodrigotorres/Documents/Proyectos/App-Intermedia/App-Intermedia/Controller/LoginVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "73"
+                  endingLineNumber = "73"
+                  offsetFromSymbolStart = "398">
+               </Location>
+               <Location
+                  uuid = "6FE888C8-A56F-45BD-93F6-6356B7318011 - 2ae829cc8820b457"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Bool) -&gt; () in App_Intermedia.LoginVC.showError() -&gt; ()"
+                  moduleName = "App-Intermedia"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodrigotorres/Documents/Proyectos/App-Intermedia/App-Intermedia/Controller/LoginVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "96">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1A03FA57-BD0B-4BCA-B330-5B6BB08590B5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "App-Intermedia/Controller/LoginVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "showError()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

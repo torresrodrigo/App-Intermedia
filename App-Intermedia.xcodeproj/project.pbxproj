@@ -14,6 +14,7 @@
 		88085AAF264C33350025DAA8 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88085AAD264C33350025DAA8 /* LoginVC.swift */; };
 		88085AB0264C33360025DAA8 /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88085AAE264C33350025DAA8 /* LoginVC.xib */; };
 		884BB29226568CF800D22C67 /* FirebaseAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884BB29126568CF800D22C67 /* FirebaseAuthService.swift */; };
+		885EB75726581CFC000AA60D /* EventsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885EB75626581CFC000AA60D /* EventsDataSource.swift */; };
 		888B54B6264F029700410CD1 /* CharactersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888B54B4264F029700410CD1 /* CharactersTableViewCell.swift */; };
 		888B54B7264F029700410CD1 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 888B54B5264F029700410CD1 /* CustomTableViewCell.xib */; };
 		888B54BF264F08F900410CD1 /* Characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888B54BE264F08F900410CD1 /* Characters.swift */; };
@@ -36,7 +37,6 @@
 		88B48DA2265483FD005CCDDE /* ErrorMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B48DA1265483FD005CCDDE /* ErrorMsg.swift */; };
 		88B751602656B04200DD4ACA /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B7515F2656B04200DD4ACA /* String+Extension.swift */; };
 		88CD22B62654E757000024A3 /* EventsBaseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CD22B52654E756000024A3 /* EventsBaseData.swift */; };
-		88CD22B82654E771000024A3 /* EventsDataSources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CD22B72654E771000024A3 /* EventsDataSources.swift */; };
 		88CD22BA2654E77F000024A3 /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CD22B92654E77F000024A3 /* Events.swift */; };
 		88CD22BF2654EE71000024A3 /* EventsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CD22BD2654EE71000024A3 /* EventsTableViewCell.swift */; };
 		88CD22C02654EE71000024A3 /* EventsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88CD22BE2654EE71000024A3 /* EventsTableViewCell.xib */; };
@@ -59,6 +59,7 @@
 		88085AAD264C33350025DAA8 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		88085AAE264C33350025DAA8 /* LoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
 		884BB29126568CF800D22C67 /* FirebaseAuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthService.swift; sourceTree = "<group>"; };
+		885EB75626581CFC000AA60D /* EventsDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsDataSource.swift; sourceTree = "<group>"; };
 		888B54B4264F029700410CD1 /* CharactersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersTableViewCell.swift; sourceTree = "<group>"; };
 		888B54B5264F029700410CD1 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
 		888B54BE264F08F900410CD1 /* Characters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Characters.swift; sourceTree = "<group>"; };
@@ -83,7 +84,6 @@
 		88B48DA1265483FD005CCDDE /* ErrorMsg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMsg.swift; sourceTree = "<group>"; };
 		88B7515F2656B04200DD4ACA /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		88CD22B52654E756000024A3 /* EventsBaseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsBaseData.swift; sourceTree = "<group>"; };
-		88CD22B72654E771000024A3 /* EventsDataSources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsDataSources.swift; sourceTree = "<group>"; };
 		88CD22B92654E77F000024A3 /* Events.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
 		88CD22BD2654EE71000024A3 /* EventsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsTableViewCell.swift; sourceTree = "<group>"; };
 		88CD22BE2654EE71000024A3 /* EventsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventsTableViewCell.xib; sourceTree = "<group>"; };
@@ -257,8 +257,8 @@
 			isa = PBXGroup;
 			children = (
 				88CD22B52654E756000024A3 /* EventsBaseData.swift */,
-				88CD22B72654E771000024A3 /* EventsDataSources.swift */,
 				88CD22B92654E77F000024A3 /* Events.swift */,
+				885EB75626581CFC000AA60D /* EventsDataSource.swift */,
 			);
 			path = EventsModel;
 			sourceTree = "<group>";
@@ -449,6 +449,7 @@
 				888B54B6264F029700410CD1 /* CharactersTableViewCell.swift in Sources */,
 				884BB29226568CF800D22C67 /* FirebaseAuthService.swift in Sources */,
 				88F70CB1265534D300940F37 /* DetailVC.swift in Sources */,
+				885EB75726581CFC000AA60D /* EventsDataSource.swift in Sources */,
 				888B54BF264F08F900410CD1 /* Characters.swift in Sources */,
 				88CD22B62654E757000024A3 /* EventsBaseData.swift in Sources */,
 				88946CBA264D6C490041E26F /* BaseTabBar.swift in Sources */,
@@ -464,7 +465,6 @@
 				88B48D9F2654838C005CCDDE /* Service.swift in Sources */,
 				88F70CAE2655334400940F37 /* ComicCharacter.swift in Sources */,
 				88F287702653106C0044FA37 /* CharacterBaseData.swift in Sources */,
-				88CD22B82654E771000024A3 /* EventsDataSources.swift in Sources */,
 				88085AAF264C33350025DAA8 /* LoginVC.swift in Sources */,
 				88F28772265310910044FA37 /* CharacterDataSource.swift in Sources */,
 				88946CAF264D6BE50041E26F /* ListCharacterVC.swift in Sources */,
