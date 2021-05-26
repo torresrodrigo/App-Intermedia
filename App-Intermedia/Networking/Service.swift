@@ -58,7 +58,7 @@ class ServiceAPI {
     func getEvents(limit : Int , completed: @escaping (Result<EventBaseData, ErrorMessage>) -> Void) {
         
         
-        let urlString : String = "https://gateway.marvel.com/v1/public/events?limit=\(limit)&ts=1&apikey=\(publicKey)&hash=\(hash)"
+        let urlString : String = "https://gateway.marvel.com/v1/public/events?orderBy=-modified&limit=\(limit)&ts=1&apikey=\(publicKey)&hash=\(hash)"
         
         guard let url = URL(string: urlString) else {return}
         
@@ -82,13 +82,14 @@ class ServiceAPI {
             do {
                 let decoder = JSONDecoder()
                 decoder.keyDecodingStrategy = .convertFromSnakeCase
+                decoder.dateDecodingStrategy = .formatted(.custom)
                 let results = try decoder.decode(EventBaseData.self, from: data)
                 completed(.success(results))
                 
                 
             } catch {
                 completed(.failure(.invalidData))
-                print(error.localizedDescription)
+                print(error)
             }
         }
         task.resume()

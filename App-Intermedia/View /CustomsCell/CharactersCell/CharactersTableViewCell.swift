@@ -13,9 +13,11 @@ class CharactersTableViewCell: UITableViewCell {
     var characterDetails : Characters! {
         didSet {
             titleCell.text = characterDetails.name
-            descriptionCell.text = characterDetails.description
-            
-            
+            if characterDetails.description == "" {
+                descriptionCell.text = "Description not available"
+            } else {
+                descriptionCell.text = characterDetails.description
+            }
             guard let path = characterDetails.thumbnail?.path, let ext = characterDetails.thumbnail?.fileExtension else {return}
             let url = path + "." + ext
             imageCell?.sd_setImage(with: URL(string: url))
