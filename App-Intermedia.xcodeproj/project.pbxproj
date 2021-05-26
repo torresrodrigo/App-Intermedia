@@ -48,8 +48,8 @@
 		88F28772265310910044FA37 /* CharacterDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F28771265310910044FA37 /* CharacterDataSource.swift */; };
 		88F28777265313E10044FA37 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F28776265313E10044FA37 /* Constants.swift */; };
 		88F70CAE2655334400940F37 /* ComicCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F70CAD2655334400940F37 /* ComicCharacter.swift */; };
-		88F70CB1265534D300940F37 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F70CAF265534D300940F37 /* DetailVC.swift */; };
-		88F70CB2265534D300940F37 /* DetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88F70CB0265534D300940F37 /* DetailVC.xib */; };
+		88F70CB1265534D300940F37 /* DetailCharacterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F70CAF265534D300940F37 /* DetailCharacterVC.swift */; };
+		88F70CB2265534D300940F37 /* DetailCharacterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88F70CB0265534D300940F37 /* DetailCharacterVC.xib */; };
 		A506197B84908A945236955D /* Pods_App_Intermedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43FA095D291F83ED93454546 /* Pods_App_Intermedia.framework */; };
 /* End PBXBuildFile section */
 
@@ -100,8 +100,8 @@
 		88F28771265310910044FA37 /* CharacterDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDataSource.swift; sourceTree = "<group>"; };
 		88F28776265313E10044FA37 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		88F70CAD2655334400940F37 /* ComicCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicCharacter.swift; sourceTree = "<group>"; };
-		88F70CAF265534D300940F37 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
-		88F70CB0265534D300940F37 /* DetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailVC.xib; sourceTree = "<group>"; };
+		88F70CAF265534D300940F37 /* DetailCharacterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCharacterVC.swift; sourceTree = "<group>"; };
+		88F70CB0265534D300940F37 /* DetailCharacterVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailCharacterVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -222,7 +222,7 @@
 				88946CAE264D6BE50041E26F /* ListCharacterVC.xib */,
 				88946CB4264D6BFD0041E26F /* ListEventsVC.xib */,
 				882D8455265DE376000C3C4B /* DetailEventVC.xib */,
-				88F70CB0265534D300940F37 /* DetailVC.xib */,
+				88F70CB0265534D300940F37 /* DetailCharacterVC.xib */,
 				88085ABA264C35590025DAA8 /* Login */,
 				88A6D8A7264C265400A0217B /* Storyboard */,
 				888B54BC264F02AF00410CD1 /* CustomsCell */,
@@ -237,7 +237,7 @@
 				882D8454265DE376000C3C4B /* DetailEventVC.swift */,
 				88946CAD264D6BE50041E26F /* ListCharacterVC.swift */,
 				88946CB3264D6BFD0041E26F /* ListEventsVC.swift */,
-				88F70CAF265534D300940F37 /* DetailVC.swift */,
+				88F70CAF265534D300940F37 /* DetailCharacterVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -398,7 +398,7 @@
 				880042B42656485F009048E8 /* ComicTableViewCell.xib in Resources */,
 				88946CB6264D6BFD0041E26F /* ListEventsVC.xib in Resources */,
 				88A6D843264C1FDD00A0217B /* GoogleService-Info.plist in Resources */,
-				88F70CB2265534D300940F37 /* DetailVC.xib in Resources */,
+				88F70CB2265534D300940F37 /* DetailCharacterVC.xib in Resources */,
 				88A6D833264C1B4E00A0217B /* Assets.xcassets in Resources */,
 				88946CB0264D6BE50041E26F /* ListCharacterVC.xib in Resources */,
 				88A6D831264C1B4D00A0217B /* Main.storyboard in Resources */,
@@ -461,7 +461,7 @@
 				88F2876E26530FBC0044FA37 /* Thumbnail.swift in Sources */,
 				888B54B6264F029700410CD1 /* CharactersTableViewCell.swift in Sources */,
 				884BB29226568CF800D22C67 /* FirebaseAuthService.swift in Sources */,
-				88F70CB1265534D300940F37 /* DetailVC.swift in Sources */,
+				88F70CB1265534D300940F37 /* DetailCharacterVC.swift in Sources */,
 				885EB75726581CFC000AA60D /* EventsDataSource.swift in Sources */,
 				888B54BF264F08F900410CD1 /* Characters.swift in Sources */,
 				88CD22B62654E757000024A3 /* EventsBaseData.swift in Sources */,

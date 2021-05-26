@@ -17,16 +17,11 @@ class DetailEventVC: UIViewController {
     @IBOutlet weak var comicsTablesView: UITableView!
     @IBOutlet weak var heightComicsTableView: NSLayoutConstraint!
     
-    
-
     override func viewDidLoad() {
         super.viewDidLoad()
         setupUI()
         setupTableView()
     }
-    
-    
-    
     
     
     private func setupUI() {
@@ -50,7 +45,6 @@ class DetailEventVC: UIViewController {
         comicsTablesView.reloadData()
         comicsTablesView.separatorStyle = .singleLine
     }
-
 
 }
 

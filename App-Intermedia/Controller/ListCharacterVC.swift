@@ -95,7 +95,7 @@ extension ListCharacterVC: UITableViewDelegate, UITableViewDataSource {
    
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let dataCharacters = charactersList[indexPath.row]
-        let detailCharacterVC = DetailVC(nibName: "DetailVC", bundle: nil)
+        let detailCharacterVC = DetailVC(nibName: "DetailCharacterVC", bundle: nil)
         detailCharacterVC.characterDetail = dataCharacters
         detailCharacterVC.hidesBottomBarWhenPushed = true
         self.navigationController?.pushViewController(detailCharacterVC, animated: true)
