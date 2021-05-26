@@ -12,6 +12,14 @@ class EventsTableViewCell: UITableViewCell {
     var eventsDetails: Events! {
         didSet {
             titleCell.text = eventsDetails.title
+            let formatter = DateFormatter.descriptionDate
+            let date = eventsDetails.modified
+            
+            if date == nil {
+                dateCell.text = "Doesn't exist date"
+            } else {
+                dateCell.text = formatter.string(from: date!)
+            }
             
             guard let path = eventsDetails.thumbnail?.path, let ext = eventsDetails.thumbnail?.fileExtension else {
                 imageCell.image = UIImage(systemName: "gear")

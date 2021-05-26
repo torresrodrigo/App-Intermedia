@@ -25,7 +25,6 @@ class ListEventsVC: UIViewController {
         eventsTableView.register(EventsTableViewCell.nib(), forCellReuseIdentifier: EventsTableViewCell.identifier)
         eventsTableView.dataSource = self
         eventsTableView.delegate = self
-        
         eventsTableView.separatorStyle = .none
     }
     
@@ -67,6 +66,13 @@ extension ListEventsVC: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         let heightCell : CGFloat = 150
         return heightCell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let dataEvents = eventsList[indexPath.row]
+        let detailEventsVC = DetailEventVC(nibName: "DetailEventVC", bundle: nil)
+        detailEventsVC.eventDetail = dataEvents
+        self.navigationController?.present(detailEventsVC, animated: true)
     }
     
 

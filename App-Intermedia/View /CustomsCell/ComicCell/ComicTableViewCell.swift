@@ -12,6 +12,7 @@ class ComicTableViewCell: UITableViewCell {
     
 
     @IBOutlet weak var comicName: UILabel!
+    @IBOutlet weak var yearComic: UILabel!
     
     
     static var identifier = "ComicTableViewCell"

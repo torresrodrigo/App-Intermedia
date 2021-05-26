@@ -25,11 +25,12 @@ class DetailVC: UIViewController {
     
     
     private func setupUI() {
-        descriptionDetail.text = characterDetail.description ?? "Not Avaibable Description"
-        
         title = characterDetail.name.uppercased()
-        
-        
+        if characterDetail.description == "" {
+            descriptionDetail.text = "Description not available"
+        } else {
+            descriptionDetail.text = characterDetail.description
+        }
         guard let path = characterDetail.thumbnail?.path, let ext = characterDetail.thumbnail?.fileExtension else {return}
         let url = path + "." + ext
         imageDetail?.sd_setImage(with: URL(string: url))

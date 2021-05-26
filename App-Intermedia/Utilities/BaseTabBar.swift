@@ -28,9 +28,9 @@ class BaseTabBar: UITabBarController {
        //Characters
         let vc1 = ListCharacterVC()
         vc1.title = "Characters"
-        //vc1.tabBarItem.image = UIImage(named: "iron-man")?.withRenderingMode(UIImage.RenderingMode.alwaysOriginal)
-        //vc1.tabBarItem.selectedImage = UIImage(named: "iron-man")?.withRenderingMode(UIImage.RenderingMode.alwaysOriginal)
-        //vc1.tabBarItem.imageInsets = UIEdgeInsets(top: 6, left: 0, bottom: -6, right: 0)
+        vc1.tabBarItem.image = UIImage(named: "iron-man")?.withRenderingMode(UIImage.RenderingMode.alwaysTemplate)
+        vc1.tabBarItem.selectedImage = UIImage(named: "iron-man")?.withRenderingMode(UIImage.RenderingMode.alwaysOriginal)
+        vc1.tabBarItem.imageInsets = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
         vc1.navigationItem.title = titleNav
         vc1.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Logout", style: .plain, target: self, action: #selector(logOut))
         vc1.navigationItem.rightBarButtonItem?.tintColor = .white
@@ -38,6 +38,9 @@ class BaseTabBar: UITabBarController {
         //Events
         let vc2 = ListEventsVC()
         vc2.title = "Events"
+        vc2.tabBarItem.image = UIImage(named: "calendar")?.withRenderingMode(UIImage.RenderingMode.alwaysTemplate)
+        vc2.tabBarItem.selectedImage = UIImage(named: "calendar")?.withRenderingMode(UIImage.RenderingMode.alwaysOriginal)
+        vc2.tabBarItem.imageInsets = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
         vc2.navigationItem.title = titleNav
         vc2.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Logout", style: .plain, target: self, action: #selector(logOut))
         vc2.navigationItem.rightBarButtonItem?.tintColor = .white
