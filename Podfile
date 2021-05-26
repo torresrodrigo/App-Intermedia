@@ -8,5 +8,9 @@ target 'App-Intermedia' do
   pod 'Firebase/Analytics'
   pod 'Alamofire', '~> 5.2'
   pod 'SDWebImage', '~> 5.0'
+  pod 'Firebase/Database'
+  pod 'Firebase/Auth'
+
+
 
 end
