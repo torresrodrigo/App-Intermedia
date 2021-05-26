@@ -20,10 +20,11 @@ class ComicTableViewCell: UITableViewCell {
         return UINib(nibName: "ComicTableViewCell", bundle: nil)
     }
     
-    /*
-    fileprivate func configureCell(nameComic : String) {
-        comicName.text = nameComic
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        selectionStyle = .none
     }
-    */
+   
 }
 

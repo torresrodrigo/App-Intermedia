@@ -15,6 +15,7 @@ class DetailVC: UIViewController {
     @IBOutlet weak var descriptionDetail: UILabel!
     @IBOutlet weak var titleComics: UILabel!
     @IBOutlet weak var comicsTablesView: UITableView!
+    @IBOutlet weak var heightComicsTableView: NSLayoutConstraint!
     
     
     override func viewDidLoad() {
@@ -40,10 +41,11 @@ class DetailVC: UIViewController {
     
     private func configureTableView() {
         comicsTablesView.register(ComicTableViewCell.nib(), forCellReuseIdentifier: ComicTableViewCell.identifier)
+        comicsTablesView.alwaysBounceVertical = false
         comicsTablesView.dataSource = self
         comicsTablesView.delegate = self
         comicsTablesView.reloadData()
-        comicsTablesView.separatorStyle = .none
+        comicsTablesView.separatorStyle = .singleLine
     }
 }
 
@@ -59,5 +61,13 @@ extension DetailVC : UITableViewDelegate, UITableViewDataSource {
         return cell
     }
     
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        let height : CGFloat = 51
+        return height
+    }
+    
+    func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        return heightComicsTableView.constant = CGFloat(Double(characterDetail.comics?.items.count ?? 0) * 52)
+    }
     
 }
